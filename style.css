@@ -1,0 +1,15 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 80px;
+}
+.menu {
+  display: flex;
+  gap: 8px;
+  list-style: none;
+}
+.menu > li:hover {
+  background-color: purple;
+  color: white;
+}
